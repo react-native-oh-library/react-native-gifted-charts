@@ -1,8 +1,7 @@
 import React from 'react';
-import Examples from './examples';
 
 const App = () => {
-  return <Examples />;
+  return <></>;
 };
 
 export default App;
