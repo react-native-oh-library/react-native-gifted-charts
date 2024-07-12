@@ -1,9 +1,9 @@
-export {BarChart} from './BarChart';
-export {PieChart} from './PieChart';
+export {BarChart} from 'react-native-gifted-charts';
+export {PieChart} from 'react-native-gifted-charts';
 export {PieChartPro} from './PieChartPro';
-export {LineChart} from './LineChart';
-export {LineChartBicolor} from './LineChart/LineChartBicolor';
-export {PopulationPyramid} from './PopulationPyramid';
+export {LineChart} from 'react-native-gifted-charts';
+export {LineChartBicolor} from 'react-native-gifted-charts';
+export {PopulationPyramid} from 'react-native-gifted-charts';
 
 export {
   barDataItem,
