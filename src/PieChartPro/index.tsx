@@ -73,14 +73,14 @@ export const PieChartPro = (props: PieChartPropsType) => {
     Animated.timing(animatedOpacityValue, {
       toValue: 1,
       duration: 10,
-      useNativeDriver: true,
+      useNativeDriver: false,
       delay: animationDuration,
     }).start();
     animatedValues.forEach(animatedValue =>
       Animated.timing(animatedValue, {
         toValue: 1,
         duration: animationDuration,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }).start(),
     );
   }, [data]);
