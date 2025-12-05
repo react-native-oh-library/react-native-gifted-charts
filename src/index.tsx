@@ -1,5 +1,5 @@
 export {BarChart} from 'react-native-gifted-charts';
-export {PieChart} from 'react-native-gifted-charts';
+export {PieChart} from './PieChart';
 export {PieChartPro} from './PieChartPro';
 export {LineChart} from 'react-native-gifted-charts';
 export {LineChartBicolor} from 'react-native-gifted-charts';
